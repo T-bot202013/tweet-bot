@@ -17,10 +17,7 @@ import twitter4j.auth.AccessToken;
 		private static String consumerSecret = "jAsrUiXbbx24DcPHFax1oJeCSw53DLzMqcc0lDbOaKBsdoJIhk";
 		private static String accessToken = "1196226134209228800-nd5OLsaSgLNNhMotyODXsASEogcA46";
 		private static String accessTokenSecret = "YREMOxLKU3iCcj3xeA4hyA5hzRzT95Y3M3wgxFG29sVwl";
-		private static String gtweet() {
-						 String tweet[] = {"準備中"};
-						 int randint = (int)(Math.random()*tweet.length);
-							return tweet[randint];
+		private static String tweet="準備中";
 						 }
 
 		public void main(HttpServletRequest req, HttpServletResponse resp)
